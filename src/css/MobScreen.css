@@ -1,0 +1,51 @@
+.mobscreen1 {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.MobScreenAll {}
+
+
+.mobScImg {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.ulMob {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+}
+
+.h2Mob {
+    text-align: left;
+}
+
+
+.liMob {
+    font-size: 14.5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    margin-bottom: 30px;
+    margin-right: 15%;
+}
+
+.liMob:hover {
+    color: rgb(137, 113, 15);
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 600px) {
+    .mobscreen1 {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mobscreen1 {
+        margin-left: 0%;
+    }
+}

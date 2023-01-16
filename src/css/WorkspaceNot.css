@@ -1,0 +1,152 @@
+.WorkspaceH1 {
+    width: 75%;
+    margin-left: 15%;
+    border-radius: 12px;
+}
+
+.WorkspaceNotAll {
+    margin-left: 7%;
+    border-radius: 12px;
+    padding-right: 9%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.WorcspaceDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.WorcspaceContent {
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    padding-left: 5%;
+    line-height: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    padding-bottom: 2%;
+}
+
+
+.WorcspaceContent2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 5%;
+    line-height: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    padding-bottom: 2%;
+}
+
+.WorcspaceContent3 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 5%;
+    max-width: 71%;
+    line-height: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    padding-bottom: 2%;
+    margin-left: 10%;
+    border-radius: 12px;
+    transition: all 2s;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.WorcspaceContent4 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 5%;
+    line-height: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    padding-bottom: 2%;
+}
+
+.WorcspaceContent5 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 5%;
+    line-height: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    padding-bottom: 2%;
+}
+
+.h1OnlineCommand {
+    text-align: left;
+}
+
+.WorcspaceContent {
+    max-width: 70%;
+    margin-left: 10%;
+    border-radius: 12px;
+    transition: all 2s;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.WorcspaceContent5,
+.WorcspaceContent4,
+.WorcspaceContent2 {
+    max-width: 73%;
+    margin-left: 10%;
+    border-radius: 12px;
+    transition: all 2s;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.WorcspaceContent:hover {
+    max-width: 73%;
+    z-index: 100;
+    margin-left: 9%;
+    background-color: rgba(0, 214, 107, 0.118);
+}
+
+.WorcspaceContent5:hover,
+.WorcspaceContent4:hover,
+.WorcspaceContent3:hover,
+.WorcspaceContent2:hover {
+    max-width: 75%;
+    z-index: 100;
+    padding-right: 10px;
+    margin-left: 9%;
+    background-color: rgba(0, 214, 107, 0.118);
+}
+
+@media screen and (max-width: 450px) {
+    .WorkspaceNotAll {
+        margin-top: 5%;
+    }
+
+    .WorkspaceH1 {
+        font-size: 13px;
+    }
+
+    .h1OnlineCommand {
+        font-size: 11px;
+    }
+
+    .WorcspaceContent {
+        padding: 5%;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+
+    .h1OnlineCommand {
+        font-size: 11px;
+    }
+
+    .WorcspaceContent {
+        padding: 5%;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+}

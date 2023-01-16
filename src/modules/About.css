@@ -1,0 +1,191 @@
+.about {
+    display: grid;
+    font-weight: normal;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+    padding: 10px;
+    max-width: 80%;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+
+.AboutAbout {
+    background-color: rgb(255, 255, 255);
+    margin-left: 11%;
+    border-radius: 12px;
+    padding: 5%;
+    transition: all 1s ease-in;
+}
+
+
+.AboutAbout:hover {
+    max-width: 98%;
+    max-height: 98%;
+    margin-left: 10%;
+    background-color: rgba(0, 214, 107, 0.118);
+}
+
+.InstructionAbout {
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    padding: 5%;
+    max-width: 90%;
+    border-radius: 12px;
+    transition: all 1s ease-in;
+}
+
+.InstructionAbout:hover {
+    margin-right: 1%;
+    background-color: rgba(0, 214, 107, 0.118);
+}
+
+.duns {
+    max-width: 80%;
+    margin-left: 6%;
+    font-weight: normal;
+}
+
+.AboutH1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+p {
+    font-size: large;
+}
+
+.iph {
+    width: 25%;
+    float: right;
+    border-radius: 8px;
+    max-width: 80%;
+    height: auto;
+    margin: 1%;
+}
+
+.instructionNotariusBtn {
+    background-color: rgba(40, 0, 172, 0);
+    border-radius: 6px 6px 6px 6px;
+    border: none;
+    max-width: max-content;
+    margin-bottom: 3%;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #b6c850;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-right: 20%;
+}
+
+.WorkspaceUserButAbout {
+    border-radius: 6px 6px 6px 6px;
+    border: none;
+    margin-bottom: 3%;
+    border: none;
+    padding-top: 3%;
+    padding-left: 2%;
+    max-width: max-content;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #b6c850;
+    margin-right: 15%;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.ButGroupInstr {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    margin-top: 10%;
+}
+
+.WorkspaceUserButAbout:hover,
+.instructionNotariusBtn:hover {
+    background-color: #c6d85f;
+}
+
+.instrIMG {
+    max-width: 60%;
+}
+
+.DUNShref {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 450px) {
+    .AboutAbout {
+        margin-left: -15%;
+        margin-right: 20px;
+        margin-bottom: 10%;
+    }
+
+    .AboutAbout:hover {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: -15%;
+        background-color: rgba(0, 214, 107, 0.118);
+    }
+
+    .about {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .InstructionAbout {
+        margin-left: -15%;
+        margin-bottom: 10%;
+        max-width: 99%;
+    }
+
+    .instructionNotariusBtn {
+        font-size: 12px;
+        padding: 3%;
+    }
+
+    .WorkspaceUserButAbout {
+        font-size: 12px;
+        padding: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .ButGroupInstr {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        padding-left: 60px;
+        padding-bottom: 80px;
+    }
+
+    .iph {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .about {
+        padding-left: 20px;
+        padding-bottom: 80px;
+    }
+}
+
+
+@media screen and (max-width: 2000px) {
+    .about {
+        padding-left: 60px;
+        padding-bottom: 80px;
+    }
+}

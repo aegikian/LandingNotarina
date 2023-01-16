@@ -1,0 +1,166 @@
+.FunctionMobAll {
+    margin-top: 5%;
+
+}
+
+.FuncMobAppText {
+    max-width: 79.5%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 12px;
+    transition: all 2s;
+}
+
+.FmaDiv {
+    background-color: #fff;
+    margin: 4%;
+    padding: 3%;
+    border-radius: 12px;
+    padding-top: 5%;
+    transition: all 1s ease-in;
+}
+
+.FmaDiv:hover {
+    background-color: rgba(0, 214, 107, 0.118);
+    margin-left: 3%;
+}
+
+.FuncMobAppText:hover {
+    max-width: 80%;
+    margin-left: 10%;
+    z-index: 100;
+}
+
+
+.LogoLargeFMA {
+    float: left;
+    margin-top: 7%;
+    margin-left: 2%;
+    transition: all 2s;
+}
+
+.ULFMA {
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 15%;
+}
+
+@media screen and (max-width: 450px) {
+    .LogoLargeFMA {
+        margin-top: 2.5%;
+        margin-left: 11%;
+        max-width: 20%;
+    }
+
+    .FuncMobAppText:hover {
+        max-width: 200px;
+        margin-left: 20%;
+        z-index: 100;
+    }
+
+    .ULFMA {
+        padding-left: 37%;
+        padding-right: 5%;
+    }
+
+    .FuncMobAppText {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 25%;
+    }
+
+    .FmaDiv {
+        padding: 10%;
+
+    }
+
+    .LogoLargeFMA {
+        margin-top: 2.5%;
+        margin-left: 11%;
+        max-width: 20%;
+    }
+
+    .FuncMobAppText {
+        width: 200px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .FMAH1Top {
+        font-size: 13px;
+    }
+
+    .LogoLargeFMA {
+        margin-top: 2.5%;
+        margin-left: 11%;
+        max-width: 20%;
+    }
+
+    .FuncMobAppText:hover {
+        max-width: 200px;
+        margin-left: 20%;
+        z-index: 100;
+    }
+
+    .ULFMA {
+        padding-left: 37%;
+        padding-right: 5%;
+    }
+
+
+    .FmaDiv {
+        padding: 10%;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .LogoLargeFMA {
+        margin-top: 2.5%;
+        margin-left: 11%;
+        max-width: 20%;
+    }
+
+    .ULFMA {
+        padding-left: 37%;
+        padding-right: 5%;
+    }
+
+    .FuncMobAppText {
+        width: 200px;
+        margin-left: 20%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .LogoLargeFMA {
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 11%;
+        max-width: 70%;
+    }
+
+    .ULFMA {
+        text-align: left;
+        line-height: 1.5;
+        margin-left: -30%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .LogoLargeFMA {
+        float: left;
+        margin-top: 2.5%;
+        max-width: 30%;
+
+    }
+
+    .ULFMA {
+        text-align: left;
+        line-height: 1.5;
+        margin-top: 20%;
+    }
+}

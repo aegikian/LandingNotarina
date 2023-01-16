@@ -1,0 +1,157 @@
+.calendImg {
+    width: 30%;
+    margin-left: 150px;
+}
+
+.CalendarAll {
+    background-color: #fff;
+    max-width: 40%;
+    margin-left: 12%;
+    border-radius: 12px;
+}
+
+
+
+.liCal {
+    font-size: 15px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    margin-bottom: 30px;
+
+}
+
+.liCal2 {
+    font-size: 14.5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+}
+
+.ulCal {
+    float: right;
+    margin-right: 170px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 5%;
+}
+
+.liCal:hover,
+.liCal2:hover {
+    color: rgb(121, 116, 97);
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .ulCal {
+        margin-right: 11px;
+
+    }
+
+    .liCal2 {
+        line-height: 1.2;
+    }
+
+    .liCal,
+    .liCal2 {
+        font-size: 15px;
+        text-shadow: 0.5px .5px .5px rgb(0, 0, 0);
+        margin-left: -10%;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .calendImg {
+        margin-top: 8%;
+    }
+
+    .h2Calend {
+        margin-right: 50%;
+        padding-left: 19%;
+    }
+
+    .ulCal {
+        float: right;
+        text-align: left;
+        margin-right: 30%;
+
+    }
+
+    .liCal,
+    .liCal2 {
+        font-size: 14px;
+        text-shadow: 0.5px .5px .5px rgb(0, 0, 0);
+        line-height: 1;
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    .ulCal {
+        margin-right: 11px;
+
+    }
+
+    .h2Calend {
+        margin-left: 15%;
+    }
+
+    .liCal,
+    .liCal2 {
+        font-size: 15px;
+        text-shadow: 0.5px .5px .5px rgb(0, 0, 0);
+        line-height: 1;
+        margin-left: 3%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .calendImg {
+        width: 80%;
+        float: left;
+        margin-left: 9%;
+    }
+
+    .h2Calend {
+        margin-left: -10%;
+    }
+
+    .ulCal {
+        margin-right: 20px;
+
+    }
+
+    .liCal,
+    .liCal2 {
+        font-size: small;
+        text-shadow: 0.5px .5px .5px rgb(0, 0, 0);
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .calendImg {
+        width: 100%;
+        float: left;
+        margin-left: -5%;
+    }
+
+    .ulCal {
+        margin-right: 30px;
+
+    }
+
+    .liCal,
+    .liCal2 {
+        font-size: 15px;
+        text-shadow: 0.5px .5px .5px rgb(0, 0, 0);
+        line-height: 1;
+    }
+}

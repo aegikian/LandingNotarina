@@ -1,0 +1,73 @@
+.BtnCloseModal {
+    background-color: #a7001e;
+    border-radius: 6px;
+    margin-top: 10%;
+    width: 30%;
+    font-size: 15px;
+}
+
+.h4titlemodal {
+    color: black;
+}
+
+.h2h2 {
+    color: black;
+}
+
+.BtnOpenModalCAB2 {
+    background-color: #a7001e;
+    border-radius: 20px;
+    margin-top: 10%;
+    font-size: 17px;
+    width: 55%;
+    height: 45px;
+    border: none;
+    margin-bottom: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.BtnOpenModalCAB2:hover {
+    background-color: rgb(12, 143, 128);
+}
+
+.ModalIosCont {
+    display: grid;
+    grid-template-columns: repeat(1);
+}
+
+.ModalDownAll {
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonDownload {
+    background-color: rgb(1, 163, 136);
+    border-radius: 8px;
+    text-decoration: none;
+    color: azure;
+    padding: 2%;
+    max-width: 80%;
+    margin: 5%;
+    margin-left: 8%;
+
+}
+
+.ButtonDownload:hover {
+    background-color: rgb(6, 112, 94);
+}
+
+@media screen and (max-width: 900px) {
+    .BtnOpenModalCAB2 {
+        border-radius: 6px;
+        margin-top: 10%;
+        font-size: 15px;
+        width: 60%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .BtnOpenModalCAB2 {
+        color: aquamarine;
+    }
+}

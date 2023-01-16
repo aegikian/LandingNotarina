@@ -1,0 +1,142 @@
+.EdmGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    max-width: 82%;
+    border-radius: 12px;
+    margin-left: 8.5%;
+}
+
+.EDMH1div {
+    max-width: 75%;
+    margin-left: 12%;
+    border-radius: 12px;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+
+.serv {
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    transition: all 1s ease-in;
+}
+
+.serv:hover {
+    background-color: rgba(0, 214, 107, 0.118);
+}
+
+p {
+    text-align: left;
+}
+
+.ul1 {
+    text-align: left;
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+@media screen and (max-width: 900px) {
+    .EdmGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .serv {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .EdmGrid {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .serv {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .EDMH1 {
+        font-size: 14px;
+        padding: 1%;
+    }
+
+    .EdmGrid {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .EdmGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2em;
+        margin-left: 5%;
+        width: 70%;
+
+    }
+
+    .EDMH1 {
+        font-size: 12px;
+    }
+
+
+    h1 {
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .serv {
+        margin-left: 15%;
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .EdmGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2em;
+        margin-left: 5%;
+        width: 70%;
+
+    }
+
+    .EDMH1 {
+        font-size: 12px;
+    }
+
+
+    h1 {
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .serv {
+        margin-left: 20px;
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .EdmGrid {
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        padding-right: 30px;
+    }
+
+    .serv {
+        width: 200px;
+    }
+}

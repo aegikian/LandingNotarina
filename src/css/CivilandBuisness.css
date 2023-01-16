@@ -1,0 +1,131 @@
+.CivilandBuisnessAll {
+    max-width: 77.5%;
+    margin-left: 11%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.CivilandBuisnessDiv {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.h6CAB {
+    font-size: 16px;
+}
+
+.AppQr {
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.ulCaB {
+    margin-left: 50%;
+    max-width: 40%;
+    text-align: left;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .ulCaB {
+        margin-left: 50%;
+        max-width: 40%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .AppQr {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .ulCaB {
+        margin-left: 60%;
+        max-width: 40%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5;
+        padding-right: 5%;
+    }
+
+    .AppQr {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ulCaB {
+        margin-left: 60%;
+        max-width: 40%;
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .ulCaB {
+        margin-left: 60%;
+        max-width: 40%;
+        text-align: left;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .AppQr {
+        max-width: 70%;
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .ulCaB {
+        margin-left: 60%;
+        max-width: 40%;
+        text-align: left;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .AppQr {
+        max-width: 70%;
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .h1CAB {
+        font-size: 13px;
+    }
+
+    .ulCaB {
+        display: none;
+        visibility: hidden;
+    }
+
+    .descCAB {
+        font-size: 0px;
+    }
+
+    .h6CAB {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .CivilandBuisnessDiv {
+        background: none;
+    }
+
+    .CivilandBuisnessAll {
+        max-height: max-content;
+    }
+
+    .AppQr {
+        max-width: 82%;
+        margin-left: 10%;
+        border-radius: 12px;
+        padding-bottom: 5%;
+        background-color: #fff;
+    }
+}

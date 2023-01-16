@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  font-weight: normal;
+}
+
+
+
+.App-header {
+  padding-top: 1%;
+  background-color: rgb(238, 245, 250);
+  min-height: 100vh;
+  color: white;
+  background-image: url("../images/headimg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Calendar {
+  margin-bottom: 30px;
+
+}
+
+.mobiScreen {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .App-header {
+    text-align: center;
+    background-size: 130%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App-header {
+    text-align: center;
+    background-size: 180%;
+  }
+
+  .App-header {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .App-header {
+    text-align: center;
+    background-size: 180%;
+  }
+
+  .App-header {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .App-header {
+    min-height: 0;
+    background-image: none;
+  }
+
+  .HeadFont1 {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    text-align: center;
+  }
+}

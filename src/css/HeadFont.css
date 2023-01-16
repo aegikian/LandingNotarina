@@ -1,0 +1,81 @@
+.HeadFont {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.butAppHeadDiv {
+    display: grid;
+    margin-left: 20%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.topText {
+    margin-top: 100px;
+    color: rgb(17, 143, 132);
+}
+
+.nottop {
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.upperFont {
+    width: 30%;
+    height: 60%;
+    background-color: rgb(240, 245, 250);
+    border-radius: 100px;
+    padding: 1%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+    margin-top: -5%;
+    box-shadow: 2px 10px 19px 8px rgba(0, 0, 0, 0.75);
+
+}
+
+.midText {
+    margin-top: 100px;
+    color: rgb(17, 143, 132);
+    font-size: 29px;
+}
+
+.nottop {
+    width: 25%;
+    margin-top: -10%;
+}
+
+.ButScroll {
+    margin-top: 100px;
+    width: 160px;
+    height: 60px;
+    box-shadow: 2px 2px 2px rgb(0, 174, 255);
+    border-radius: 12px 12px 12px 12px;
+    border-color: rgb(0, 174, 255);
+}
+
+.ButScroll:hover {
+    box-shadow: 3px 3px 5px rgb(255, 77, 0);
+    border-color: rgb(255, 77, 0);
+}
+
+.ButScroll:active {
+    box-shadow: 3px 3px 5px rgb(13, 255, 0);
+    border-color: rgb(13, 255, 0);
+}
+
+@media screen and (max-width: 400px) {
+    .HeadFont {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .HeadFont {
+        display: none;
+        visibility: hidden;
+    }
+
+}

@@ -1,0 +1,216 @@
+.WorkspaceUserAll {
+    max-width: 79.5%;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+.WorkspaceUserButIn {
+    width: 10%;
+    height: 30px;
+    background-color: #a7001e;
+    border-radius: 15px;
+    border-style: double;
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 0.5%;
+    margin-top: .3%;
+}
+
+.FigureWorkspaceUser {
+    background-color: #fff;
+    margin-bottom: 10%;
+    border-radius: 12px;
+    margin-left: 10%;
+    transition: all 2s;
+}
+
+.FigureWorkspaceUser:hover {
+    max-width: 110%;
+    font-size: 17px;
+}
+
+.WorkspaceUserButIn:hover {
+    background-color: rgb(12, 138, 100);
+}
+
+.WorkspaceUserinstructions {
+    display: flex;
+    justify-content: center;
+}
+
+.NotMiniImg {
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 3%;
+}
+
+.OptionsUsersDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.OptionsUsersImgPay {
+    max-width: 80%;
+}
+
+.OptionsUsersImgDoc {
+    max-width: 80%;
+}
+
+.OptionsUsersImgQuest {
+    max-width: 85%;
+}
+
+.OptionsUsersImgCons {
+    max-width: 110%;
+}
+
+.OptionsUsersFigcap {
+    margin-top: 10%;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .WorkspaceUserButIn {
+        width: 20%;
+        height: 50px;
+        background-color: rgb(20, 190, 139);
+        border-radius: 15px;
+        border-style: double;
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: 2%;
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 1%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .WorkspaceUserButIn {
+        width: 20%;
+        height: 50px;
+        background-color: rgb(20, 190, 139);
+        border-radius: 15px;
+        border-style: double;
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: 5.5%;
+        font-size: 14px;
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .WorkspaceUserButIn {
+        width: 20%;
+        height: 50px;
+        background-color: rgb(20, 190, 139);
+        border-radius: 15px;
+        border-style: double;
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: 5.5%;
+        font-size: 12px;
+        padding: 2%;
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -4%;
+        margin-right: 2%;
+        font-size: 11px;
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .WorkspaceUserH1Div {
+        margin-bottom: 10%;
+    }
+
+    .WorkspaceUserH1 {
+        font-size: 13px;
+    }
+
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -4%;
+        margin-right: 2%;
+        font-size: 11px;
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .OptionsUsersDiv {
+        grid-template-columns: repeat(1, 3fr);
+    }
+
+    .WorkspaceUserButIn {
+        width: 20%;
+        height: 50px;
+        background-color: rgb(20, 190, 139);
+        border-radius: 15px;
+        border-style: double;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 12px;
+        padding-right: 8%;
+        text-align: left;
+        padding-top: 0%;
+        padding-bottom: 5%;
+
+    }
+
+    .NotMiniImg {
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 3%;
+        padding-top: 3%;
+    }
+}
