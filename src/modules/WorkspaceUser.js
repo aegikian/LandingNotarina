@@ -33,7 +33,7 @@ const WorkspaceUser = () => {
                 <div className='FigureWorkspaceUser'>
                     <figure>
                         <img className='OptionsUsersImgDoc' src={doc} alt='free consultation' ></img>
-                        <figcaption className='OptionsUsersFigcap'><strong>Удобно подать документы</strong><br /> <br />
+                        <figcaption className='OptionsUsersFigcap' ><strong>Удобно подать документы</strong><br /> <br />
                             Для нотариальных действий, сокращающих Время Вашего пребывания в нотариальной конторе.
                         </figcaption>
                     </figure></div>
@@ -44,6 +44,7 @@ const WorkspaceUser = () => {
                             И забронировать удобное время для получения документов</figcaption>
                     </figure></div>
             </div>
+            <div id='Download'></div>
         </div>
     )
 }

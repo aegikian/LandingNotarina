@@ -50,6 +50,7 @@ function Edm() {
           </figcaption>
         </figure>
       </div>
+      <div id='WorkspaceNot' ></div>
     </div>
   );
 }

@@ -34,6 +34,7 @@ const FunctionMobApp = () => {
                     </ul>
                 </div>
             </div>
+            <div id='WorkspaceUser'></div>
         </div>
     );
 }

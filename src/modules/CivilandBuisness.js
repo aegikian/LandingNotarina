@@ -8,7 +8,7 @@ const CivilandBuisness = () => {
     const andoid = require('./img/android_notarina.png');
     const ios = require('./img/ios_notarina.png');
     return (
-        <div className='CivilandBuisnessAll' id='Download'>
+        <div className='CivilandBuisnessAll' >
             <div className='descCAB'>
                 <h1 className='h1CAB'>Мобильное приложение для населения и бизнеса</h1>
                 <h6 className='h6CAB'>Это новый уровень удобства и скорости
@@ -33,6 +33,7 @@ const CivilandBuisness = () => {
                     <br />
                 </div>
             </div>
+            <div id='Contacts'></div>
         </div>
     )
 }

@@ -95,7 +95,6 @@
 
 .WorcspaceContent:hover {
     max-width: 73%;
-    z-index: 100;
     margin-left: 9%;
     background-color: rgba(0, 214, 107, 0.118);
 }
@@ -105,7 +104,6 @@
 .WorcspaceContent3:hover,
 .WorcspaceContent2:hover {
     max-width: 75%;
-    z-index: 100;
     padding-right: 10px;
     margin-left: 9%;
     background-color: rgba(0, 214, 107, 0.118);

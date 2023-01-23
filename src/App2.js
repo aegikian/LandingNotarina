@@ -35,7 +35,7 @@ function App2() {
                 <br />
 
                 <div className="WorkspaceNot">
-                    <WorkspaceNot id='WorkspaceNot' />
+                    <WorkspaceNot />
                 </div>
                 <div className="FunctionMobApp">
                     <FunctionMobApp id='FunctionMobApp' />
@@ -44,13 +44,13 @@ function App2() {
           <FollowService id='FollowService' />
         </div> */}
                 <div className="WorkspaceUser">
-                    <WorkspaceUser id='WorkspaceUser' />
+                    <WorkspaceUser />
                 </div>
                 <div className="CivillAndBuisness">
-                    <CivilandBuisness id='CivilandBuisness' />
+                    <CivilandBuisness />
                 </div>
                 <div className="Contacts">
-                    <Contacts id='Contacts' />
+                    <Contacts />
                 </div>
             </div>
             <Footer />
