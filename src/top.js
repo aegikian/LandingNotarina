@@ -9,10 +9,10 @@ function Topnav() {
       <div className="topnav1">
         <img src={logot} alt="logo" width="60px" className="logot" />
         <div className="NavGrid">
-          <a href='https://notarina.ru/users/register' className="rightnav">
+          <a href='https://notarina.ru/signin' className="rightnav">
             Авторизация Нотариуса
           </a>
-          <a href='https://notarina.ru/users/login' className="rightnav">Регистрация Нотариуса</a>
+          <a href='https://notarina.ru/signup' className="rightnav">Регистрация Нотариуса</a>
           <Link to="WorkspaceNot" className="rightnav" href="#home">
             Для Нотариуса
           </Link>
