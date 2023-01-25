@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.450ca399.css",
+    "main.js": "/static/js/main.67be0c41.js",
+    "static/js/787.a4c9754d.chunk.js": "/static/js/787.a4c9754d.chunk.js",
+    "static/media/headimg.png": "/static/media/headimg.14652bcfc2f24aa8202b.png",
+    "static/media/duns.png": "/static/media/duns.efdc649c9a86e994d50d.png",
+    "static/media/services-1.png": "/static/media/services-1.25f8f23bb2fd4711eea4.png",
+    "static/media/questions.png": "/static/media/questions.718d5328b44e161f9f0c.png",
+    "static/media/VK.png": "/static/media/VK.495f8f45c0546446b9f1.png",
+    "static/media/wb.png": "/static/media/wb.86de35ad01b8fb82f068.png",
+    "static/media/instr.png": "/static/media/instr.5d53b8c07f2fe87ace24.png",
+    "static/media/nottop.png": "/static/media/nottop.1dffb85f17659ee42eff.png",
+    "static/media/bgc.png": "/static/media/bgc.45ec9a3385f231a6e2cf.png",
+    "static/media/logo.png": "/static/media/logo.df372985922118d09077.png",
+    "static/media/android_notarina.png": "/static/media/android_notarina.6d41f821c4098c7e9b0f.png",
+    "static/media/nott.gif": "/static/media/nott.14a0bbfe6dbcc73e653e.gif",
+    "static/media/ok.png": "/static/media/ok.086b62ca301fa8fdcea1.png",
+    "static/media/wa.png": "/static/media/wa.4a50b7e5dff63ab999a6.png",
+    "static/media/doc.png": "/static/media/doc.eafe7ab80cfa57820285.png",
+    "static/media/services-2.jpeg": "/static/media/services-2.dfa5cab3192f32368283.jpeg",
+    "static/media/mobscreen.png": "/static/media/mobscreen.6f1067f9e150cf37efd7.png",
+    "static/media/freeconsultation.png": "/static/media/freeconsultation.163226dc799572bc3bd5.png",
+    "static/media/gp3.png": "/static/media/gp3.ccc773019e0714e641f0.png",
+    "static/media/gp1.png": "/static/media/gp1.d8e52897d5eddbfc5035.png",
+    "static/media/tg.png": "/static/media/tg.0f5104460455869f1010.png",
+    "static/media/pay.png": "/static/media/pay.d900aa9dd12a3b4e8b71.png",
+    "static/media/services-3.jpeg": "/static/media/services-3.ea3254a4695b6deb431d.jpeg",
+    "static/media/gp2.png": "/static/media/gp2.f16e52096fab4b17e2e1.png",
+    "index.html": "/index.html",
+    "main.450ca399.css.map": "/static/css/main.450ca399.css.map",
+    "main.67be0c41.js.map": "/static/js/main.67be0c41.js.map",
+    "787.a4c9754d.chunk.js.map": "/static/js/787.a4c9754d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.450ca399.css",
+    "static/js/main.67be0c41.js"
+  ]
+}
