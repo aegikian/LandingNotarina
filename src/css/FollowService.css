@@ -43,7 +43,7 @@
     border-radius: 12px;
     padding-top: 1%;
     border-color: rgb(0, 142, 95);
-    border-width: 2px;
+    border-width: 1px;
     border-top-color: black;
     border-left-color: black;
 }
@@ -54,6 +54,8 @@
     margin-bottom: 3%;
     border-radius: 12px;
     border-color: rgb(0, 142, 95);
+    border-width: 1px;
+    padding-left: 2%;
 }
 
 .aAssignment {

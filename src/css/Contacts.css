@@ -14,9 +14,10 @@
     width: 500px;
     margin-bottom: 3%;
     border-radius: 12px;
-    padding-top: 1%;
+    padding-top: 3%;
+    padding-left: 2%;
     border-color: rgb(0, 142, 95);
-    border-width: 2px;
+    border-width: 1px;
     border-top-color: black;
     border-left-color: black;
 }

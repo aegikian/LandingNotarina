@@ -46,6 +46,23 @@
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .rightnav {
+        font-size: 14px;
+        padding: 5%;
+        padding-top: 10%;
+    }
+
+    .topnavall {
+        display: flex;
+        justify-content: center;
+    }
+
+    .topnav1 {
+        margin-right: 10rem;
+    }
+}
+
 @media screen and (min-width: 650px) and (max-width: 750px) {
     .rightnav {
         font-size: 9px;
