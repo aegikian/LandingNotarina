@@ -28,9 +28,7 @@
 }
 
 .PlusDivGrid:hover {
-    width: 106%;
-    height: 100%;
-    margin-left: -10px;
+    transform: scale(1.2);
 }
 
 
@@ -40,5 +38,4 @@
         grid-template-columns: repeat(1, 2fr);
     }
 
-    .PlusDivGrid {}
 }

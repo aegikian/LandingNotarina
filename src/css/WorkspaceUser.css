@@ -25,8 +25,7 @@
 }
 
 .FigureWorkspaceUser:hover {
-    max-width: 110%;
-    font-size: 17px;
+    transform: scale(1.1);
 }
 
 .WorkspaceUserButIn:hover {

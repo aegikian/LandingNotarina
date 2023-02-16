@@ -16,7 +16,8 @@ function About() {
           «НОТАРИУС» <br /> </p><br />
         <div>
           <a href="" className="DUNShref"><img className="duns" src={duns} alt='DUNS' /></a>
-        </div><a href="" className="DUNShref">
+        </div>
+        <a href="" className="DUNShref">
           Компания зарегистрирована в реестре DUNS</a>
       </div>
 

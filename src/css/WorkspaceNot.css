@@ -94,8 +94,7 @@
 }
 
 .WorcspaceContent:hover {
-    max-width: 73%;
-    margin-left: 9%;
+    transform: scale(1.1);
     background-color: rgba(0, 214, 107, 0.118);
 }
 
@@ -103,8 +102,7 @@
 .WorcspaceContent4:hover,
 .WorcspaceContent3:hover,
 .WorcspaceContent2:hover {
-    max-width: 75%;
-    padding-right: 10px;
+    transform: scale(1.1);
     margin-left: 9%;
     background-color: rgba(0, 214, 107, 0.118);
 }

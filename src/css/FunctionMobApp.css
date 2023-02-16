@@ -22,15 +22,10 @@
 }
 
 .FmaDiv:hover {
-    background-color: rgba(0, 214, 107, 0.118);
-    margin-left: 3%;
+    transform: scale(1.1);
 }
 
-.FuncMobAppText:hover {
-    max-width: 80%;
-    margin-left: 10%;
-    z-index: 100;
-}
+
 
 
 .LogoLargeFMA {
@@ -53,11 +48,6 @@
         max-width: 20%;
     }
 
-    .FuncMobAppText:hover {
-        max-width: 200px;
-        margin-left: 20%;
-        z-index: 100;
-    }
 
     .ULFMA {
         padding-left: 37%;
@@ -98,11 +88,6 @@
         max-width: 20%;
     }
 
-    .FuncMobAppText:hover {
-        max-width: 200px;
-        margin-left: 20%;
-        z-index: 100;
-    }
 
     .ULFMA {
         padding-left: 37%;
