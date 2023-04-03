@@ -1,179 +1,180 @@
 .topnav1 {
-    background-color: rgb(222, 246, 251);
-    border-radius: 18px;
-    max-width: 80%;
-    margin-left: 9%;
-    display: flex;
-    padding: 1%;
-    max-height: min-content;
-    position: fixed;
-    margin-bottom: 10%;
-    z-index: 100000000;
+  background-color: rgb(222, 246, 251);
+  border-radius: 18px;
+  min-width: 80%;
+  max-width: 80%;
+  margin-left: 9%;
+  display: flex;
+  padding: 1%;
+  max-height: min-content;
+  position: fixed;
+  margin-bottom: 10%;
+  z-index: 100000000;
 }
 
 .NavGrid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .topnavall {
-    padding-top: 2%;
-    margin-bottom: 10%;
+  padding-top: 2%;
+  margin-bottom: 10%;
 }
 
 .rightnav {
-    text-decoration: none;
-    color: black;
-    padding-top: 8%;
-    margin-left: 12%;
-    margin-right: 5%;
-    max-height: min-content;
+  text-decoration: none;
+  color: black;
+  padding-top: 8%;
+  margin-left: 12%;
+  margin-right: 5%;
+  max-height: min-content;
 }
 
 .rightnav:hover {
-    color: rgb(108, 175, 172);
+  color: rgb(108, 175, 172);
 }
 
 @media screen and (min-width: 750px) and (max-width: 850px) {
-    .rightnav {
-        font-size: 14px;
-        padding: 5%;
-        padding-top: 10%;
-    }
+  .rightnav {
+    font-size: 14px;
+    padding: 5%;
+    padding-top: 10%;
+  }
 
-    .topnav1 {
-        max-width: 90%;
-        margin-left: 7%;
-    }
+  .topnav1 {
+    max-width: 90%;
+    margin-left: 7%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
-    .rightnav {
-        font-size: 14px;
-        padding: 5%;
-        padding-top: 10%;
-    }
+  .rightnav {
+    font-size: 14px;
+    padding: 5%;
+    padding-top: 10%;
+  }
 
-    .topnavall {
-        display: flex;
-        justify-content: center;
-    }
+  .topnavall {
+    display: flex;
+    justify-content: center;
+  }
 
-    .topnav1 {
-        margin-right: 10rem;
-    }
+  .topnav1 {
+    margin-right: 10rem;
+  }
 }
 
 @media screen and (min-width: 650px) and (max-width: 750px) {
-    .rightnav {
-        font-size: 9px;
-        padding: 3%;
-    }
+  .rightnav {
+    font-size: 9px;
+    padding: 3%;
+  }
 
-    .topnav1 {
-        max-width: 85%;
-        margin-left: 7%;
-    }
+  .topnav1 {
+    max-width: 85%;
+    margin-left: 7%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 550px) and (max-width: 650px) {
-    .rightnav {
-        font-size: 9px;
-        padding: 3%;
-    }
+  .rightnav {
+    font-size: 9px;
+    padding: 3%;
+  }
 
-    .topnav1 {
-        max-width: 85%;
-        margin-left: 4%;
-    }
+  .topnav1 {
+    max-width: 85%;
+    margin-left: 4%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 550px) {
-    .rightnav {
-        font-size: 11px;
-        padding: 3%;
-    }
+  .rightnav {
+    font-size: 11px;
+    padding: 3%;
+  }
 
-    .topnav1 {
-        max-width: 85%;
-        margin-left: 4%;
-    }
+  .topnav1 {
+    max-width: 85%;
+    margin-left: 4%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 450px) and (max-width: 500px) {
-    .rightnav {
-        font-size: 9px;
-        padding: 3%;
-    }
+  .rightnav {
+    font-size: 9px;
+    padding: 3%;
+  }
 
-    .topnav1 {
-        max-width: 75%;
-        margin-left: 3%;
-    }
+  .topnav1 {
+    max-width: 75%;
+    margin-left: 3%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 400px) and (max-width: 450px) {
-    .rightnav {
-        font-size: 9px;
-        padding: 3%;
-    }
+  .rightnav {
+    font-size: 9px;
+    padding: 3%;
+  }
 
-    .topnav1 {
-        max-width: 90%;
-        margin-left: 3%;
-    }
+  .topnav1 {
+    max-width: 90%;
+    margin-left: 3%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 350px) and (max-width: 400px) {
-    .rightnav {
-        font-size: 8.5px;
-        padding: 3%;
-        margin-left: 3px;
-    }
+  .rightnav {
+    font-size: 8.5px;
+    padding: 3%;
+    margin-left: 3px;
+  }
 
-    .topnav1 {
-        max-width: 90%;
-        margin-left: 5%;
-    }
+  .topnav1 {
+    max-width: 90%;
+    margin-left: 5%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 350px) {
-    .rightnav {
-        font-size: 8px;
-        padding: 3%;
-        margin-left: 3px;
-    }
+  .rightnav {
+    font-size: 8px;
+    padding: 3%;
+    margin-left: 3px;
+  }
 
-    .topnav1 {
-        max-width: 97%;
-        margin-left: 1%;
-    }
+  .topnav1 {
+    max-width: 97%;
+    margin-left: 1%;
+  }
 
-    .logot {
-        display: none;
-    }
+  .logot {
+    display: none;
+  }
 }

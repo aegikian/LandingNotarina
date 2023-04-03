@@ -21,7 +21,7 @@ const WorkspaceUser = () => {
                     <figure>
                         <img className='OptionsUsersImgCons' src={freecons} alt='free consultation' ></img>
                         <figcaption className='OptionsUsersFigcap'><strong>Получить консультацию онлайн </strong><br /><br />
-                            Узнайте список документов, размер госпошлины и стоимость в приложении.</figcaption>
+                            Узнайте список документов, размер госпошлины и стоимость в приложении</figcaption>
                     </figure></div>
                 <div className='FigureWorkspaceUser'>
                     <figure>
@@ -34,7 +34,7 @@ const WorkspaceUser = () => {
                     <figure>
                         <img className='OptionsUsersImgDoc' src={doc} alt='free consultation' ></img>
                         <figcaption className='OptionsUsersFigcap' ><strong>Удобно подать документы</strong><br /> <br />
-                            Для нотариальных действий, сокращающих Время Вашего пребывания в нотариальной конторе.
+                            Для нотариальных действий, сокращающих Время Вашего пребывания в нотариальной конторе
                         </figcaption>
                     </figure></div>
                 <div className='FigureWorkspaceUser'>

@@ -7,6 +7,7 @@
 
 .aAssignmentCont {
   color: black;
+  font-style: italic;
 }
 
 .inputFollowServTextContact {
@@ -81,6 +82,10 @@
   color: aliceblue;
 }
 
+.contacts_docs {
+  font-style: italic;
+}
+
 @media screen and (max-width: 770px) {
   .AllDivsContact {
     display: grid;
@@ -141,7 +146,7 @@
   }
 
   .CHNoBold {
-    font-weight: normal;
+    font-weight: 200;
   }
 
   .h5Contacts {
