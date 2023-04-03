@@ -45,7 +45,6 @@ function Edm() {
             {" "}
             Мобильное приложение для нотариуса - это
             <br />
-
             <MobAppNotMod />
           </figcaption>
         </figure>

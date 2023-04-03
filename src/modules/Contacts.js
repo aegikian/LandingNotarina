@@ -11,9 +11,9 @@ export const Contacts = () => {
         <div className='AllDivsContact'>
             <div className='ContactsAndMessend'>
                 <h1 className='ContactsH1'>Контакты</h1>
-                <h3 className='CHNoBold'>Свяжитесь с нами, мы ответим на все вопросы</h3>
-                <h5 className='CHNoBold'>Для поддержки, для общих вопросов, для спонсоров, <br />
-                    для вопросов по обработке персональных данных</h5>
+                <p className='CHNoBold'>Свяжитесь с нами, мы ответим на все вопросы</p>
+                <p className='CHNoBold'>Для поддержки, для общих вопросов, для спонсоров, <br />
+                    для вопросов по обработке персональных данных</p>
                 <h5 className='h5Contacts'> &#128205; Россия, Москва, ООО НОТАРИНА</h5>
                 <h5 className='h5Contacts'><a className='HrefsContact' href='tel:+79932253686'>&#128222; +7 993 22 53 686 </a>&nbsp; &nbsp; &#128233; <a className='HrefsContact2' href='mailto:info@notarina.ru'>info@notarina.ru</a> </h5>
                 <h3>Узнай о нас больше</h3>
@@ -32,21 +32,21 @@ export const Contacts = () => {
                     className="FollowServiceForm"
                 >
                     <label>
-                        <input type="FirstName" name="FirstName" className="inpurFollowServ" placeholder="Фамилия" required />
+                        <input type="FirstName" name="FirstName" className="inpurFollowServ" placeholder="Фамилия*" required />
                     </label>
                     <label>
-                        <input type="Name" name="Name" className="inpurFollowServ" placeholder="Имя" required />
+                        <input type="Name" name="Name" className="inpurFollowServ" placeholder="Имя*" required />
                     </label>
                     <label>
-                        <input type="LastName" name="LastName" className="inpurFollowServ" placeholder="Отчество" required />
+                        <input type="LastName" name="LastName" className="inpurFollowServ" placeholder="Отчество" />
                     </label>
                     <label>
-                        <input type="phonenumber" name="phonenumber" className="inpurFollowServ" placeholder="Телефон" required />
+                        <input type="phonenumber" name="phonenumber" className="inpurFollowServ" placeholder="Телефон*" required />
                     </label>
                     <label>
-                        <input type="email" name="email" placeholder="email" className="inpurFollowServ" required />
+                        <input type="email" name="email" placeholder="email*" className="inpurFollowServ" required />
                     </label>
-                    <textarea name="message" className="inputFollowServTextContact" placeholder="Сообщение" required></textarea>
+                    <textarea name="message" className="inputFollowServTextContact" placeholder="Сообщение*" required></textarea>
                     <label>
                         <input type='checkbox' required /><i className='aAssignmentCont'> Я соглашаюсь с правилами ООО Нотарина</i>  <br />
                         <a target='_blank' className='aAssignmentCont' href='https://notarina.ru/website/images/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9D%D0%9E%D0%A2%D0%90%D0%A0%D0%98%D0%9D%D0%90.docx.pdf'>Пользовательское соглашение</a>  <br />
