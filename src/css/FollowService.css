@@ -1,285 +1,277 @@
 .FollowServiceForm {
-    display: grid;
-    flex-direction: column;
-    justify-content: flex-end;
-    line-height: 2;
+  display: grid;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 2;
 }
 
 .buttonFS {
-    height: 50px;
-    width: 505px;
-    border-radius: 12px;
-    border-color: rgb(0, 142, 95);
+  height: 50px;
+  width: 505px;
+  border-radius: 12px;
+  border: none;
+  background-color: #e9eaf1;
 }
 
 .followH1 {
-    text-align: left;
+  text-align: left;
 }
 
 .FollowServiceFormDiv {
-    width: 50%;
-    padding: 1%;
+  width: 50%;
+  padding: 1%;
 }
 
 .ContentFollowService {
-    padding-left: 20%;
+  padding-left: 20%;
 }
 
 .FollowServiceAll {
-    background-image: url(../modules/img/bgc.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url(../modules/img/bgc.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: -2%;
+}
+
+.inpurFollowServText {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 3%;
+  border-radius: 12px;
+  padding-top: 1%;
+  border: none;
+  background-color: #e9eaf1;
+}
+
+.inpurFollowServ {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 3%;
+  border-radius: 12px;
+  border: none;
+  padding-left: 1vw;
+  background-color: #e9eaf1;
+}
+
+.aAssignment {
+  color: white;
+}
+
+@media screen and (max-width: 1500px) {
+  .FollowServiceAll {
+    background-size: 190%;
+    height: 190%;
+    width: 100%;
+    display: flex;
+    margin-top: -2%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ContentFollowService {
+    padding-left: 0;
+  }
+
+  .inpurFollowServ {
+    height: 50%;
+    width: 60%;
+  }
+
+  .inpurFollowServText {
+    height: 20%;
+    width: 75%;
+  }
+
+  .FollowServiceForm {
+    display: grid;
+  }
+
+  .FollowServiceAll {
+    background-size: 190%;
+    height: 190%;
+    width: 100%;
+    display: flex;
+    margin-top: -2%;
+  }
+
+  .buttonFS {
+    height: 100%;
+    width: 60%;
+    border-radius: 12px;
+    margin-left: 20%;
+    border-color: rgb(0, 142, 95);
+  }
+
+  .labelcheckboxFollow {
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 18%;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ContentFollowService {
+    padding-left: 0;
+  }
+
+  .inpurFollowServ {
+    height: 50%;
+    width: 50%;
+  }
+
+  .inpurFollowServText {
+    height: 20%;
+    width: 65%;
+  }
+
+  .FollowServiceForm {
+    display: grid;
+  }
+
+  .FollowServiceAll {
+    background-size: 190%;
+    height: 190%;
+    width: 100%;
+    display: flex;
+    margin-top: -2%;
+  }
+
+  .buttonFS {
+    height: 100%;
+    width: 60%;
+    border-radius: 12px;
+    margin-left: 20%;
+    border-color: rgb(0, 142, 95);
+  }
+
+  .labelcheckboxFollow {
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 23.5%;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FollowServiceAll {
+    background-size: 2200px;
     height: 100%;
     width: 100%;
     display: flex;
     margin-top: -2%;
-}
+  }
 
+  .inpurFollowServText {
+    height: 20%;
+    width: 75%;
+  }
 
-.inpurFollowServText {
-    height: 50px;
-    width: 500px;
-    margin-bottom: 3%;
+  .buttonFS {
+    margin-left: 90%;
+  }
+
+  .FollowServiceAll {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .FollowServiceFormDiv {
+    margin-left: 20%;
+  }
+
+  .ContentFollowService {
+    padding-left: 10%;
+  }
+
+  .inpurFollowServ {
+    height: 50%;
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .inpurFollowServText {
+    height: 20%;
+    width: 110%;
+  }
+
+  .buttonFS {
+    height: 30px;
+    width: 60%;
     border-radius: 12px;
-    padding-top: 1%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-color: rgb(0, 142, 95);
-    border-width: 1px;
-    border-top-color: black;
-    border-left-color: black;
-}
+  }
 
-.inpurFollowServ {
-    height: 50px;
-    width: 500px;
-    margin-bottom: 3%;
-    border-radius: 12px;
-    border-color: rgb(0, 142, 95);
-    border-width: 1px;
-    padding-left: 2%;
-}
-
-.aAssignment {
-    color: white;
-}
-
-@media screen and (max-width: 1500px) {
-    .FollowServiceAll {
-        background-size: 190%;
-        height: 190%;
-        width: 100%;
-        display: flex;
-        margin-top: -2%;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .ContentFollowService {
-        padding-left: 0;
-    }
-
-    .inpurFollowServ {
-        height: 50%;
-        width: 60%;
-    }
-
-    .inpurFollowServText {
-        height: 20%;
-        width: 75%;
-    }
-
-    .FollowServiceForm {
-        display: grid;
-    }
-
-    .FollowServiceAll {
-        background-size: 190%;
-        height: 190%;
-        width: 100%;
-        display: flex;
-        margin-top: -2%;
-    }
-
-    .buttonFS {
-        height: 100%;
-        width: 60%;
-        border-radius: 12px;
-        margin-left: 20%;
-        border-color: rgb(0, 142, 95);
-    }
-
-    .labelcheckboxFollow {
-        line-height: 1.5;
-        text-align: left;
-        padding-left: 18%;
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .ContentFollowService {
-        padding-left: 0;
-    }
-
-    .inpurFollowServ {
-        height: 50%;
-        width: 50%;
-    }
-
-    .inpurFollowServText {
-        height: 20%;
-        width: 65%;
-    }
-
-    .FollowServiceForm {
-        display: grid;
-    }
-
-    .FollowServiceAll {
-        background-size: 190%;
-        height: 190%;
-        width: 100%;
-        display: flex;
-        margin-top: -2%;
-    }
-
-    .buttonFS {
-        height: 100%;
-        width: 60%;
-        border-radius: 12px;
-        margin-left: 20%;
-        border-color: rgb(0, 142, 95);
-    }
-
-    .labelcheckboxFollow {
-        line-height: 1.5;
-        text-align: left;
-        padding-left: 23.5%;
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .FollowServiceAll {
-        background-size: 2200px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        margin-top: -2%;
-    }
-
-    .inpurFollowServText {
-        height: 20%;
-        width: 75%;
-    }
-
-    .buttonFS {
-        margin-left: 90%;
-    }
-
-    .FollowServiceAll {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .FollowServiceFormDiv {
-        margin-left: 20%;
-    }
-
-    .ContentFollowService {
-        padding-left: 10%;
-    }
-
-    .inpurFollowServ {
-        height: 50%;
-        width: 100%;
-        padding-left: 10%;
-    }
-
-    .inpurFollowServText {
-        height: 20%;
-        width: 110%;
-    }
-
-
-
-    .buttonFS {
-        height: 30px;
-        width: 60%;
-        border-radius: 12px;
-        margin-left: 20%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        border-color: rgb(0, 142, 95);
-    }
-
-    .labelcheckboxFollow {
-        line-height: 1.5;
-        text-align: left;
-        margin-bottom: 10%;
-        margin-left: -22%;
-    }
+  .labelcheckboxFollow {
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: -22%;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .FollowServiceAll {
-        background-size: 2200px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        margin-top: -2%;
-    }
+  .FollowServiceAll {
+    background-size: 2200px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: -2%;
+  }
 
-    .inpurFollowServText {
-        height: 20%;
-        width: 75%;
-    }
+  .inpurFollowServText {
+    height: 20%;
+    width: 75%;
+  }
 
-    .buttonFS {
-        margin-left: 90%;
-    }
+  .buttonFS {
+    margin-left: 90%;
+  }
 
-    .FollowServiceAll {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+  .FollowServiceAll {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    }
+  .FollowServiceFormDiv {
+    margin-left: 20%;
+  }
 
-    .FollowServiceFormDiv {
-        margin-left: 20%;
-    }
+  .ContentFollowService {
+    padding-left: 10%;
+  }
 
-    .ContentFollowService {
-        padding-left: 10%;
-    }
+  .inpurFollowServ {
+    height: 50%;
+    width: 100%;
+    padding-left: 10%;
+  }
 
-    .inpurFollowServ {
-        height: 50%;
-        width: 100%;
-        padding-left: 10%;
-    }
+  .inpurFollowServText {
+    height: 20%;
+    width: 110%;
+  }
 
-    .inpurFollowServText {
-        height: 20%;
-        width: 110%;
-    }
+  .buttonFS {
+    height: 30px;
+    width: 60%;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    border-color: rgb(0, 142, 95);
+  }
 
-
-
-    .buttonFS {
-        height: 30px;
-        width: 60%;
-        border-radius: 12px;
-        margin-left: 20%;
-        margin-top: 25%;
-        margin-bottom: 10%;
-        border-color: rgb(0, 142, 95);
-    }
-
-    .labelcheckboxFollow {
-        line-height: 1.5;
-        text-align: left;
-        margin-bottom: 10%;
-        margin-left: -22%;
-    }
+  .labelcheckboxFollow {
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: -22%;
+  }
 }

@@ -1,293 +1,273 @@
 .AllDivsContact {
-    max-width: 78%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  max-width: 78%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .aAssignmentCont {
-    color: black;
+  color: black;
 }
 
 .inputFollowServTextContact {
-    height: 50px;
-    width: 500px;
-    margin-bottom: 3%;
-    border-radius: 12px;
-    padding-top: 3%;
-    padding-left: 2%;
-    border-color: rgb(0, 142, 95);
-    border-width: 1px;
-    border-top-color: black;
-    border-left-color: black;
+  height: 50px;
+  width: 500px;
+  margin-bottom: 3%;
+  border-radius: 12px;
+  padding-top: 3%;
+  background-color: #e9eaf1;
+  padding-left: 2%;
+  border: none;
 }
 
 .ContactServiceFormDiv {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .ContactsAndMessend {
-    float: left;
-    margin-left: 4%;
-    text-align: left;
+  float: left;
+  margin-left: 4%;
+  text-align: left;
 }
 
 .h5Contacts {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .HrefsContact2,
 .HrefsContact {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .HrefsContact2:hover,
 .HrefsContact:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .SocialGroups {
-    display: flex;
+  display: flex;
 }
 
 .vkimg {
-    max-width: 32px;
-    margin-top: -1px;
+  max-width: 32px;
+  margin-top: -1px;
 }
 
 .okimg {
-    max-width: 35px;
-    margin-top: -3px;
-    margin-left: 3px;
+  max-width: 35px;
+  margin-top: -3px;
+  margin-left: 3px;
 }
 
 .tgimg {
-    max-width: 30px;
-    margin-left: 3px;
+  max-width: 30px;
+  margin-left: 3px;
 }
 
 .waimg {
-    max-width: 30px;
-    margin-left: 5px;
+  max-width: 30px;
+  margin-left: 5px;
 }
 
 .vbimg {
-    max-width: 30px;
-    margin-left: 5px;
+  max-width: 30px;
+  margin-left: 5px;
 }
 
 .Footer {
-    background-color: rgb(0, 98, 120);
-    padding: 10px;
-    color: aliceblue;
+  background-color: rgb(0, 98, 120);
+  padding: 10px;
+  color: aliceblue;
 }
 
 @media screen and (max-width: 770px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        height: 1000px;
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 1000px;
+  }
 
-    .ContactServiceFormDiv {
-        margin-left: 60%;
-    }
-
+  .ContactServiceFormDiv {
+    margin-left: 60%;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        height: 1300px;
-        max-width: 70%;
-        margin-left: 15%;
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 1300px;
+    max-width: 70%;
+    margin-left: 15%;
+  }
 
-    .inpurFollowServTextContact {
-        height: 58px;
-        width: 100%;
-        margin-bottom: 3%;
-        border-radius: 12px;
-        padding-top: 1%;
-        border-color: rgb(0, 142, 95);
-        border-width: 2px;
-        border-top-color: rgb(178, 73, 73);
-        border-left-color: black;
-    }
+  .inpurFollowServTextContact {
+    height: 58px;
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+    padding-top: 1%;
+    border: none;
+  }
 
-    .ContactServiceFormDiv {
-        font-size: small;
-        text-align: left;
-    }
+  .ContactServiceFormDiv {
+    font-size: small;
+    text-align: left;
+  }
 
-    .buttonFS {
-        margin-left: 20%;
-    }
+  .buttonFS {
+    margin-left: 20%;
+  }
 
-    .ContactsH1 {
-        font-size: 14px;
-    }
+  .ContactsH1 {
+    font-size: 14px;
+  }
 
-    .CHNoBold {
-        font-weight: normal;
-    }
+  .CHNoBold {
+    font-weight: normal;
+  }
 
-    .h5Contacts {
-        font-weight: normal;
-    }
-
-
-
-
+  .h5Contacts {
+    font-weight: normal;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        height: 1300px;
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 1300px;
+  }
 
-    .CHNoBold {
-        font-weight: normal;
-    }
+  .CHNoBold {
+    font-weight: normal;
+  }
 
-    .h5Contacts {
-        font-weight: normal;
-    }
+  .h5Contacts {
+    font-weight: normal;
+  }
 
-    .inputFollowServTextContact {
-        height: 50px;
-        width: 110%;
-        margin-bottom: 3%;
-        border-radius: 12px;
-        padding-top: 1%;
-        border-color: rgb(0, 142, 95);
-        border-width: 2px;
-        border-top-color: rgb(12, 12, 12);
-        border-left-color: black;
-    }
+  .inputFollowServTextContact {
+    height: 50px;
+    width: 110%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+    padding-top: 1%;
+    border: none;
+  }
 
-    .ContactServiceFormDiv {
-        margin-right: 10%;
-        margin-left: 29%;
-        margin-top: 600px;
-    }
-
+  .ContactServiceFormDiv {
+    margin-right: 10%;
+    margin-left: 29%;
+    margin-top: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        height: 1300px;
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 1300px;
+  }
 
-    .ContactsAndMessend {
-        margin-left: 20%;
-    }
+  .ContactsAndMessend {
+    margin-left: 20%;
+  }
 
-    .ContactServiceFormDiv {
-        margin-left: 16%;
-    }
+  .ContactServiceFormDiv {
+    margin-left: 16%;
+  }
 
-    .inpurFollowServTextContact {
-        height: 50px;
-        width: 100%;
-        margin-bottom: 3%;
-        border-radius: 12px;
-        padding-top: 1%;
-        border-color: rgb(0, 142, 95);
-        border-width: 2px;
-        border-top-color: black;
-        border-left-color: black;
-    }
+  .inpurFollowServTextContact {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+    padding-top: 1%;
+    border: none;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
 
-    .ContactsAndMessend {
-        margin-left: 30%;
-    }
+  .ContactsAndMessend {
+    margin-left: 30%;
+  }
 
-    .inputFollowServTextContact {
-        max-width: 60%;
-        margin-left: 19%;
-    }
+  .inputFollowServTextContact {
+    max-width: 60%;
+    margin-left: 19%;
+  }
 
-    .FollowServiceForm {
-        margin-top: 40%;
-    }
+  .FollowServiceForm {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
 
-    .ContactsAndMessend {
-        margin-left: 30%;
-    }
+  .ContactsAndMessend {
+    margin-left: 30%;
+  }
 
-    .inputFollowServTextContact {
-        max-width: 60%;
-        margin-left: 19%;
-    }
+  .inputFollowServTextContact {
+    max-width: 60%;
+    margin-left: 19%;
+  }
 
-    .FollowServiceForm {
-        margin-top: 40%;
-    }
+  .FollowServiceForm {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
 
-    .inpurFollowServTextContact {
-        height: 50px;
-        width: 60%;
-        margin-bottom: 3%;
-        margin-left: 18%;
-        border-radius: 12px;
-        padding-top: 1%;
-        border-color: rgb(0, 142, 95);
-        border-width: 2px;
-        border-top-color: black;
-        border-left-color: black;
-    }
+  .inpurFollowServTextContact {
+    height: 50px;
+    width: 60%;
+    margin-bottom: 3%;
+    margin-left: 18%;
+    border-radius: 12px;
+    padding-top: 1%;
+    border: none;
+    background-color: #e9eaf1;
+  }
 
-
-    .FollowServiceForm {
-        margin-right: 12%;
-    }
+  .FollowServiceForm {
+    margin-right: 12%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .AllDivsContact {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-    }
+  .AllDivsContact {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
 
-    .ContactsH1 {
-        margin-bottom: 10%;
-    }
+  .ContactsH1 {
+    margin-bottom: 10%;
+  }
 
-    .ContactsAndMessend {
-        margin-left: 10%;
-    }
+  .ContactsAndMessend {
+    margin-left: 10%;
+  }
 
-    .ContactServiceFormDiv {
-        float: right;
-        margin-top: -20%;
-    }
+  .ContactServiceFormDiv {
+    float: right;
+    margin-top: -20%;
+  }
 }
