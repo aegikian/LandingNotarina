@@ -27,7 +27,7 @@ function App2() {
                 </div>
                 <Pluses id='Pluses' />
                 <div className="EMdiv">
-                    <Edm is='Edm' />
+                    <Edm id='Edm' />
                 </div>
                 {/* <div className="Calendar">
           <Calendar id='Calendar' />

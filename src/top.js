@@ -7,16 +7,16 @@ function Topnav() {
   return (
     <div className="topnavall">
       <div className="topnav1">
-        <img src={logot} alt="logo" width="60px" className="logot" />
         <div className="NavGrid">
-          <a href='https://notarina.ru/signup' className="rightnav">
+          <img src={logot} alt="logo" width="60px" className="logot" />
+          <a href='https://notarina.ru/signup' className="rightnav hide_a">
             Авторизация Нотариуса
           </a>
-          <a href='https://notarina.ru/signin' className="rightnav">Регистрация Нотариуса</a>
-          <Link to="WorkspaceNot" className="rightnav" href="#home">
+          <a href='https://notarina.ru/signin' className="rightnav hide_a">Регистрация Нотариуса</a>
+          <Link to="WorkspaceNot" className="rightnav hide_a" href="#home">
             Для Нотариуса
           </Link>
-          <Link to='WorkspaceUser' className="rightnav" href="#home">
+          <Link to='WorkspaceUser' className="rightnav hide_a" href="#home">
             Для Пользователя
           </Link>
           <Link to='Download' className="rightnav" href="#home">
@@ -25,6 +25,23 @@ function Topnav() {
           <Link to='Contacts' className="rightnav" href="#home">
             Контакты
           </Link>
+          <div class="dropdown">
+            <span class="dropbtn rightnav">Сервисы</span>
+            <div class="dropdown-content">
+              <a rel="noreferrer" target="_blank" href='https://notariat.ru/ru-ru/help/probate-cases/' className="rightnav">
+                Реестр наследственных дел
+              </a>
+              <a rel="noreferrer" target="_blank" href='https://notariat.ru/ru-ru/help/reestr-uvedomlenij-o-zaloge-dvizhimogo-imushestva/' className="rightnav">
+                Реестр уведомлений о залоге движимого имущества
+              </a>
+              <a rel="noreferrer" target="_blank" href='https://notariat.ru/ru-ru/help/servis-proverki-doverennostej/' className="rightnav">
+                Сервис проверки доверенностей
+              </a>
+              <a rel="noreferrer" target="_blank" href='https://data.notariat.ru/directory/succession/search' className="rightnav">
+                Розыск наследников
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
