@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./NavTop.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function Topnav() {
   const logot = require("./modules/img/logo.png");
+
   return (
     <div className="topnavall">
       <div className="topnav1">
@@ -25,9 +26,9 @@ function Topnav() {
           <Link to='Contacts' className="rightnav" href="#home">
             Контакты
           </Link>
-          <div class="dropdown">
-            <span class="dropbtn rightnav">Сервисы</span>
-            <div class="dropdown-content">
+          <div className="dropdown">
+            <span className="dropbtn rightnav">Сервисы</span>
+            <div className="dropdown-content">
               <a rel="noreferrer" target="_blank" href='https://notariat.ru/ru-ru/help/probate-cases/' className="rightnav">
                 Реестр наследственных дел
               </a>
@@ -39,6 +40,9 @@ function Topnav() {
               </a>
               <a rel="noreferrer" target="_blank" href='https://data.notariat.ru/directory/succession/search' className="rightnav">
                 Розыск наследников
+              </a>
+              <a rel="noreferrer" target="_blank" href='https://notariat.ru/ru-ru/help/' className="rightnav">
+                Прочие проверки и реестры
               </a>
             </div>
           </div>
